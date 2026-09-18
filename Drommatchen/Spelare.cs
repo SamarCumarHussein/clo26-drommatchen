@@ -1,22 +1,31 @@
     public class Spelare
     {
-  
-     // Privata fält
+     // Kollade på förläsningar för att hitta hur du skulle vilja har, jag skrivit tidagre som auto-properties. 
+     // fattade att det va en full properties som krävdes för ger koll på vad som lagras.
+     //Privata fält
         private string _namn;
         private int _nummer;
         private string _position;
 
-        public string Namn { get; private set; }
         // Skapa get och privat set för Namn
-
-        public int Nummer { get; private set; }
-
+    
+        public string Namn 
+        { 
+            get { return _namn; } private set { _namn = value; }
+        }
+       
         // Skapa get och privat set för Nummer
+        public int Nummer 
+        {  
+           get { return _nummer; } private set { _nummer = value; }
+    
+        }
 
-        public string Position { get; private set; }
-        // Skapa get och privat set för Position
-
-
+        // Skapa get och privat set för Position.
+        public string Position
+        {
+            get { return _position; } private set { _position = value; }
+        }
 
         // Konstruktor
         public Spelare(string namn, int nummer, string position)
