@@ -2,6 +2,7 @@ public class Match
 { 
  
   // Privata fält
+
    private string _hemmalag;
    private string _bortalag;
    private string _datum;
@@ -9,7 +10,6 @@ public class Match
 
     // Gamla sättet att skriv, den moderna sättet hade varit i en rad, trodde först att man skulle använda.
     // Properties — publik get, privat set
-
 
     // get och privat set för Hemmalag
     public string Hemmalag 

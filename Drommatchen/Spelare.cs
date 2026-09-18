@@ -2,7 +2,7 @@
     {
      // Kollade på förläsningar för att hitta hur du skulle vilja har, jag skrivit tidagre som auto-properties. 
      // fattade att det va en full properties som krävdes för ger koll på vad som lagras.
-     //Privata fält
+      //Privata fält
         private string _namn;
         private int _nummer;
         private string _position;
