@@ -58,6 +58,6 @@ public class Match
     public void AnnounceraMålskytt(Spelare spelare)
     {
         // TODO
-
+        Console.WriteLine($"Mååål! #{spelare.Namn} {spelare.Nummer} {spelare.Position}");
     }
 }
