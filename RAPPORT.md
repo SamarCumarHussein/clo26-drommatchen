@@ -24,7 +24,7 @@
 
 ### Klasserna
 
-> Klasserna Spelare och match fanns redan i startkoden.Jag fyllde i properties och Konstruktor engligt kommentarerna. 
+> Klasserna Spelare och match fanns redan i startkoden. Jag fyllde i properties och Konstruktor engligt kommentarerna. 
 > Ibörjan va jag oskäer på vilket sätt du ville att man skulle skriva properties, den modernare sättet eller den gamla, men hjälp av förläsningarna förståg jag att du ville ha en full property som stoppar ogiltiga värden.
 
 ### Metoderna
@@ -65,6 +65,14 @@ Klistra in utskriften från `git log --oneline` här:
 
 ```
 [
-    
+Rapport & Reflektion
+f3556e6 Färdig med Main/program.cs
+687996b Uppdatera properties
+7a1ace1 Uppdaera properties
+0cdcdac Gjorde klart Spel
+37c09b1 Spel och Match påbörjades
+35825ed Solutionfile added at root
+34de7d5 refactor: gör property-kroppar tomma — studerande implementerar själva
+66f4917 init: starterrepo för Drömmatchen (Inlämning 1)
 ]
 ```
